@@ -233,8 +233,7 @@ class _DesktopSettingPageState extends State<DesktopSettingPage>
         case SettingsTabKey.display:
           children.add(const _Display());
           break;
-        // case SettingsTabKey.account:
-          // children.add(const _Account());
+        case SettingsTabKey.account:
           break;
         case SettingsTabKey.printer:
           children.add(const _Printer());
