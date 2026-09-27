@@ -72,7 +72,7 @@ class DesktopSettingPage extends StatefulWidget {
         bind.mainGetBuildinOption(key: kOptionHideNetworkSetting) != 'Y')
       SettingsTabKey.network,
     if (!bind.isIncomingOnly()) SettingsTabKey.display,
-    // if (!bind.isDisableAccount()) SettingsTabKey.account,
+    // if (!bind.isDisableAccount()) // // SettingsTabKey.account,
     if (isWindows &&
         !bind.isDisableSettings() &&
         bind.mainGetBuildinOption(key: kOptionHideRemotePrinterSetting) != 'Y')
@@ -770,7 +770,8 @@ class _GeneralState extends State<_General> {
       };
     }(), hasData: (data) {
       Map<String, dynamic> map = data as Map<String, dynamic>;
-      String user_dir = map['user_dir']!;
+      String user_dir = map['user_dir']!.replaceAll('RustDesk', 'QshaDesk');
+      if (user_dir.isEmpty) { user_dir = r'C:\Users\Vins\Videos\QshaDesk'; }
       String root_dir = map['root_dir']!;
       bool root_dir_exists = map['root_dir_exists']!;
       bool user_dir_exists = map['user_dir_exists']!;
@@ -2580,7 +2581,7 @@ class _AboutState extends State<_About> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Copyright © ${DateTime.now().toString().substring(0, 4)} Qsha',
+                            'Copyright @ 2026 QshaDesk',
                             style: const TextStyle(color: Colors.white),
                           ),
                           Text(

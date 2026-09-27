@@ -44,7 +44,7 @@ class PeerTabModel with ChangeNotifier {
     false,
     false,
   ]);
-  final List<bool> _isVisible = List.filled(maxTabCount, true, growable: false);
+  final List<bool> _isVisible = [true, true, true, false, false];
   List<bool> get isVisibleEnabled => () {
         final list = _isVisible.toList();
         for (int i = 0; i < maxTabCount; i++) {
