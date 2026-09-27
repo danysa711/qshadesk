@@ -163,6 +163,9 @@ jobs:
           sed -i 's/rs-ny.rustdesk.com/qsha.my.id/g' libs/hbb_common/src/config.rs || true
           sed -i 's/OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=/PeyZFHYmA7zBUwHa19XI111XaUFUS54Bt3htJ2vpVn8=/g' libs/hbb_common/src/config.rs || true
           sed -i 's/"RustDesk".to_owned()/"QshaDesk".to_owned()/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/is_some_hard_opton("disable-installation")/true/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/is_some_hard_opton("disable-account")/true/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/is_some_hard_opton("disable-ab")/true/g' libs/hbb_common/src/config.rs || true
 
       - name: Restore bridge files
         uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1

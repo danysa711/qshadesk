@@ -2561,14 +2561,7 @@ class _AboutState extends State<_About> {
                     translate('Privacy Statement'),
                     style: linkStyle,
                   ).marginSymmetric(vertical: 4.0)),
-              InkWell(
-                  onTap: () {
-                    launchUrlString('https://qsha.my.id');
-                  },
-                  child: Text(
-                    translate('Website'),
-                    style: linkStyle,
-                  ).marginSymmetric(vertical: 4.0)),
+              // Website link removed
               Container(
                 decoration: const BoxDecoration(color: Color(0xFF2c8cff)),
                 padding:
