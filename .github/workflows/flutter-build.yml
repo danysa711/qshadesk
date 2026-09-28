@@ -76,7 +76,7 @@ jobs:
       - name: Patch QshaDesk Server and Branding
         shell: bash
         run: |
-          sed -i 's/rs-ny.rustdesk.com/qsha.my.id/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/rs-ny.rustdesk.com/api.qsha.my.id/g' libs/hbb_common/src/config.rs || true
           sed -i 's/OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=/PeyZFHYmA7zBUwHa19XI111XaUFUS54Bt3htJ2vpVn8=/g' libs/hbb_common/src/config.rs || true
           sed -i 's/"RustDesk".to_owned()/"QshaDesk".to_owned()/g' libs/hbb_common/src/config.rs || true
 
@@ -163,7 +163,7 @@ jobs:
       - name: Patch QshaDesk Server and Branding
         shell: bash
         run: |
-          sed -i 's/rs-ny.rustdesk.com/qsha.my.id/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/rs-ny.rustdesk.com/api.qsha.my.id/g' libs/hbb_common/src/config.rs || true
           sed -i 's/OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=/PeyZFHYmA7zBUwHa19XI111XaUFUS54Bt3htJ2vpVn8=/g' libs/hbb_common/src/config.rs || true
           sed -i 's/"RustDesk".to_owned()/"QshaDesk".to_owned()/g' libs/hbb_common/src/config.rs || true
           sed -i 's/is_some_hard_opton("disable-installation")/true/g' libs/hbb_common/src/config.rs || true
@@ -518,7 +518,7 @@ jobs:
       - name: Patch QshaDesk Server and Branding
         shell: bash
         run: |
-          sed -i 's/rs-ny.rustdesk.com/qsha.my.id/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/rs-ny.rustdesk.com/api.qsha.my.id/g' libs/hbb_common/src/config.rs || true
           sed -i 's/OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=/PeyZFHYmA7zBUwHa19XI111XaUFUS54Bt3htJ2vpVn8=/g' libs/hbb_common/src/config.rs || true
           sed -i 's/"RustDesk".to_owned()/"QshaDesk".to_owned()/g' libs/hbb_common/src/config.rs || true
 
@@ -685,7 +685,7 @@ jobs:
       - name: Patch QshaDesk Server and Branding
         shell: bash
         run: |
-          sed -i 's/rs-ny.rustdesk.com/qsha.my.id/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/rs-ny.rustdesk.com/api.qsha.my.id/g' libs/hbb_common/src/config.rs || true
           sed -i 's/OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=/PeyZFHYmA7zBUwHa19XI111XaUFUS54Bt3htJ2vpVn8=/g' libs/hbb_common/src/config.rs || true
           sed -i 's/"RustDesk".to_owned()/"QshaDesk".to_owned()/g' libs/hbb_common/src/config.rs || true
 
@@ -819,7 +819,7 @@ jobs:
       - name: Patch QshaDesk Server and Branding
         shell: bash
         run: |
-          sed -i 's/rs-ny.rustdesk.com/qsha.my.id/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/rs-ny.rustdesk.com/api.qsha.my.id/g' libs/hbb_common/src/config.rs || true
           sed -i 's/OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=/PeyZFHYmA7zBUwHa19XI111XaUFUS54Bt3htJ2vpVn8=/g' libs/hbb_common/src/config.rs || true
           sed -i 's/"RustDesk".to_owned()/"QshaDesk".to_owned()/g' libs/hbb_common/src/config.rs || true
 
@@ -1167,7 +1167,7 @@ jobs:
       - name: Patch QshaDesk Server and Branding
         shell: bash
         run: |
-          sed -i 's/rs-ny.rustdesk.com/qsha.my.id/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/rs-ny.rustdesk.com/api.qsha.my.id/g' libs/hbb_common/src/config.rs || true
           sed -i 's/OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=/PeyZFHYmA7zBUwHa19XI111XaUFUS54Bt3htJ2vpVn8=/g' libs/hbb_common/src/config.rs || true
           sed -i 's/"RustDesk".to_owned()/"QshaDesk".to_owned()/g' libs/hbb_common/src/config.rs || true
 
@@ -1447,7 +1447,7 @@ jobs:
       - name: Patch QshaDesk Server and Branding
         shell: bash
         run: |
-          sed -i 's/rs-ny.rustdesk.com/qsha.my.id/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/rs-ny.rustdesk.com/api.qsha.my.id/g' libs/hbb_common/src/config.rs || true
           sed -i 's/OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=/PeyZFHYmA7zBUwHa19XI111XaUFUS54Bt3htJ2vpVn8=/g' libs/hbb_common/src/config.rs || true
           sed -i 's/"RustDesk".to_owned()/"QshaDesk".to_owned()/g' libs/hbb_common/src/config.rs || true
 
@@ -1621,7 +1621,7 @@ jobs:
       - name: Patch QshaDesk Server and Branding
         shell: bash
         run: |
-          sed -i 's/rs-ny.rustdesk.com/qsha.my.id/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/rs-ny.rustdesk.com/api.qsha.my.id/g' libs/hbb_common/src/config.rs || true
           sed -i 's/OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=/PeyZFHYmA7zBUwHa19XI111XaUFUS54Bt3htJ2vpVn8=/g' libs/hbb_common/src/config.rs || true
           sed -i 's/"RustDesk".to_owned()/"QshaDesk".to_owned()/g' libs/hbb_common/src/config.rs || true
 
@@ -1954,7 +1954,7 @@ jobs:
       - name: Patch QshaDesk Server and Branding
         shell: bash
         run: |
-          sed -i 's/rs-ny.rustdesk.com/qsha.my.id/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/rs-ny.rustdesk.com/api.qsha.my.id/g' libs/hbb_common/src/config.rs || true
           sed -i 's/OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=/PeyZFHYmA7zBUwHa19XI111XaUFUS54Bt3htJ2vpVn8=/g' libs/hbb_common/src/config.rs || true
           sed -i 's/"RustDesk".to_owned()/"QshaDesk".to_owned()/g' libs/hbb_common/src/config.rs || true
 
@@ -2285,7 +2285,7 @@ jobs:
       - name: Patch QshaDesk Server and Branding
         shell: bash
         run: |
-          sed -i 's/rs-ny.rustdesk.com/qsha.my.id/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/rs-ny.rustdesk.com/api.qsha.my.id/g' libs/hbb_common/src/config.rs || true
           sed -i 's/OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=/PeyZFHYmA7zBUwHa19XI111XaUFUS54Bt3htJ2vpVn8=/g' libs/hbb_common/src/config.rs || true
           sed -i 's/"RustDesk".to_owned()/"QshaDesk".to_owned()/g' libs/hbb_common/src/config.rs || true
 
@@ -2509,7 +2509,7 @@ jobs:
       - name: Patch QshaDesk Server and Branding
         shell: bash
         run: |
-          sed -i 's/rs-ny.rustdesk.com/qsha.my.id/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/rs-ny.rustdesk.com/api.qsha.my.id/g' libs/hbb_common/src/config.rs || true
           sed -i 's/OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=/PeyZFHYmA7zBUwHa19XI111XaUFUS54Bt3htJ2vpVn8=/g' libs/hbb_common/src/config.rs || true
           sed -i 's/"RustDesk".to_owned()/"QshaDesk".to_owned()/g' libs/hbb_common/src/config.rs || true
 
@@ -2592,7 +2592,7 @@ jobs:
       - name: Patch QshaDesk Server and Branding
         shell: bash
         run: |
-          sed -i 's/rs-ny.rustdesk.com/qsha.my.id/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/rs-ny.rustdesk.com/api.qsha.my.id/g' libs/hbb_common/src/config.rs || true
           sed -i 's/OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=/PeyZFHYmA7zBUwHa19XI111XaUFUS54Bt3htJ2vpVn8=/g' libs/hbb_common/src/config.rs || true
           sed -i 's/"RustDesk".to_owned()/"QshaDesk".to_owned()/g' libs/hbb_common/src/config.rs || true
 
@@ -2660,7 +2660,7 @@ jobs:
       - name: Patch QshaDesk Server and Branding
         shell: bash
         run: |
-          sed -i 's/rs-ny.rustdesk.com/qsha.my.id/g' libs/hbb_common/src/config.rs || true
+          sed -i 's/rs-ny.rustdesk.com/api.qsha.my.id/g' libs/hbb_common/src/config.rs || true
           sed -i 's/OeVuKk5nlHiXp+APNn0Y3pC1Iwpwn44JGqrQCsWqmBw=/PeyZFHYmA7zBUwHa19XI111XaUFUS54Bt3htJ2vpVn8=/g' libs/hbb_common/src/config.rs || true
           sed -i 's/"RustDesk".to_owned()/"QshaDesk".to_owned()/g' libs/hbb_common/src/config.rs || true
 
